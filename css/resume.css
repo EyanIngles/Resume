@@ -459,6 +459,14 @@ p {
 .contact .flex-list li a:hover {
     color: var(--blue);
 }
+:root {
+    --sui-accent: #5A2A83; /* Example color */
+}
+.experience-card.sui {
+    border-left: 4px solid var(--sui-accent);
+    background-color: rgba(90, 42, 131, 0.1);
+}
+
 
 /* === FOOTER === */
 
